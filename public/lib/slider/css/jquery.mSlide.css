@@ -1,0 +1,2 @@
+div.mSlide_btnLeft { width:5%; height:100%; position:absolute; left:0; top:0; background:#000; z-index:100; opacity: .5; }
+div.mSlide_btnRight { width:5%; height:100%; position:absolute; right:0; top:0; background:#000; z-index:100; opacity: .5; }

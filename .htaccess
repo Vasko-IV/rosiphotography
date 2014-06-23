@@ -1,0 +1,4 @@
+AddType text/css .css 
+AddType text/css .less
+Content-Type: application/javascript
+Content-Type: application/stylesheet

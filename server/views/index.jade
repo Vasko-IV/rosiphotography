@@ -1,0 +1,24 @@
+extends includes/layout
+block main-content
+    .nav.navbar-inverse.navbar-fixed-top.center.shadow
+        .container
+            //- img.logo(src="http://i.imgur.com/BmrYmNK.png")
+            .navbar-header
+                a.navbar-brand.btn(href="#/" style="color: black;") Homepage
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+
+                    li
+                        a.btn(href="#/wearables" style="color: black;") Gallery
+                    li
+                        a.btn(href="#/tablets" style="color: black;") Wedding
+                    li
+                        a.btn(href="#/courses" style="color: black;") Bio
+                    li
+                        a.btn(href="#/apples" style="color: black;") Contact
+                    //li
+                        div(ng-include="'partials/account/login'")
+
+    section
+        div(ng-view)
+

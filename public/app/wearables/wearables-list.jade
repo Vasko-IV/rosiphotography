@@ -1,0 +1,39 @@
+.container
+	.banner
+		ul
+			li(style="background-image: url('http://i.imgur.com/PXYYI31.jpg');")
+			li(style="background-image: url('http://i.imgur.com/esJRbeN.jpg');")
+			li(style="background-image: url('http://i.imgur.com/MhdDM0h.jpg');")
+			li(style="background-image: url('http://i.imgur.com/bDkDiyB.jpg');")
+			li(style="background-image: url('http://i.imgur.com/YcK2fZy.jpg');")
+			li(style="background-image: url('http://i.imgur.com/YfEmq96.jpg');")
+			li(style="background-image: url('http://i.imgur.com/RqXkMLB.jpg');")
+			li(style="background-image: url('http://i.imgur.com/3Z3oenn.jpg');")
+			li(style="background-image: url('http://i.imgur.com/fME5dgf.jpg');")
+			li(style="background-image: url('http://i.imgur.com/vTFzDui.jpg');")
+			li(style="background-image: url('http://i.imgur.com/NqG8u9e.jpg');")
+			li(style="background-image: url('http://i.imgur.com/LLlKbcO.jpg');")
+			li(style="background-image: url('http://i.imgur.com/TIer1BS.jpg');")
+			li(style="background-image: url('http://i.imgur.com/YkPzd7i.jpg');")
+			li(style="background-image: url('http://i.imgur.com/IAuBzlm.jpg');")
+			li(style="background-image: url('http://i.imgur.com/EsGG05b.jpg');")
+			li(style="background-image: url('http://i.imgur.com/rbjOFR5.jpg');")
+			li(style="background-image: url('http://i.imgur.com/SCDWYZu.jpg');")
+			li(style="background-image: url('http://i.imgur.com/XO3bzkv.jpg');")
+			//li(style="background-image: url('http://i.imgur.com/nc6UWyt.jpg');")
+			li(style="background-image: url('http://i.imgur.com/jtjKXLe.jpg');")
+			li(style="background-image: url('http://i.imgur.com/kmE7UFD.jpg');")
+			li(style="background-image: url('http://i.imgur.com/km8mq59.jpg');")
+
+img.icongallery(src="http://i1172.photobucket.com/albums/r576/zombaza/logo2_zps239676ad.png")
+script.
+	$(document).ready(function(){
+		$('.banner').unslider({
+				speed: 400,               //  The speed to animate each slide (in milliseconds)
+				delay: 4000,              //  The delay between slide animations (in milliseconds)
+				keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+				dots: false,		      // Display dot navigation
+				arrows: true,      		  // display prev/next arrows (boolean)
+				fluid: true              //  Support responsive design. May break non-responsive designs
+			});
+	});
